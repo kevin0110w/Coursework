@@ -1,0 +1,32 @@
+
+public class Lab4Ex2 {
+	public static void main(String[] args) {
+		int year = 2356;
+		
+		System.out.println(calcLeapYear(year));
+		 year = 1700;
+		System.out.println(calcLeapYear(year));
+		 year = 1800;
+		System.out.println(calcLeapYear(year));
+		 year = 2012;
+		System.out.println(calcLeapYear(year));
+		 year = 2000;
+		System.out.println(calcLeapYear(year));
+		
+	}
+		
+	public static boolean calcLeapYear(int year) {
+		if ((year % 4 == 0) && (year % 100 == 0)) {
+			if ((year % 400 == 0)) {
+				return true;
+			}
+			//isLeapYear = false;
+		} else if ((year % 4 == 0) && (year % 100 != 0)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		return false;
+	}
+}
