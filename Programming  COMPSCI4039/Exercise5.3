@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Lab5Ex3 {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.print("Please enter your first name and"
+		  + " your age");
+		String name = s.nextLine();
+		Scanner t = new Scanner(name);
+		System.out.println(t.next());
+		System.out.println(t.next());
+		System.out.println(t.nextInt());
+		t.close();
+		s.close();
+	}
+}
