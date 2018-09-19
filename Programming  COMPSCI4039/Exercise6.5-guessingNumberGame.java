@@ -1,3 +1,12 @@
+/*
+Write a number guessing game. Your program should choose a random number between 0 and 99 (see below). The user should then be given 10 guesses to guess the number, with your program telling them, on each guess, whether they were too high, too low, or correct. To generate a random int between 0 and 99 use the following code:
+        Random rand = new Random();
+        int randomNum = rand.nextInt(100);
+    And add the following line to the very top of your program (above the public class line):
+        import java.util.Random;
+*/
+
+
 import java.util.Scanner;
 import java.util.Random;
 
