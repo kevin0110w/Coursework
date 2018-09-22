@@ -1,3 +1,6 @@
+/*Write some code that, given a month (encoded as the first three letters of the month’s name as a String, e.g. Jan, Feb, Mar, etc) and an integer for the year, prints out how many days there are in the month. E.g. if the month is Mar, it has 31 days, if Sep, 30 days, if Feb, 28 or 29 depending on if it is a leap year. Hint, you might want to use or (||) to test for multiple months at once (e.g. detect if it is one of the ones with 30 days)
+Refactor again so that the code for the number of days in the month is its own method, that itself calls the method to determine if it is a leap year or not. This new method will be passed two arguments (the String for the month and the int for the year) and will return an int (the number of days in the month).
+*/
 
 public class Lab4Ex4 {
 	public static void main(String[] args) {
