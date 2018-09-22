@@ -1,3 +1,8 @@
+/*
+Write a program (all in a main method) that will, for any particular integer, print out the first ten terms of its times table.
+
+*/
+
 import java.util.Scanner;
 
 public class Lab6Ex1 {
