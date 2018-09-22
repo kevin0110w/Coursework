@@ -1,3 +1,8 @@
+/*
+Using your summariseCircle method from the methods exercises, write a program that asks the user to enter the radius of a circle and then, using the radius, calls the summariseCircle method. Your radius should be a double...fortunately Scanner helps us here with nextDouble().
+
+*/
+
 import java.util.Scanner;
 
 public class Lab5Ex2 {
