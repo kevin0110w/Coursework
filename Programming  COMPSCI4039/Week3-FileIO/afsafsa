@@ -1,0 +1,56 @@
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class ExerciseTwoFileIO {
+
+	public static void main(String[] args) throws IOException {
+//		String fN = "H:\\Desktop\\dolphin.txt";
+//		String fN = "H:\\Desktop\\sums.txt";
+		String fN = "H:\\Desktop\\backwards.txt";
+		String newString = "";
+		FileReader fR = null;
+		Scanner s = null;
+		
+		try {
+			fR =  new FileReader(fN);
+			 s = new Scanner(fR);
+			
+			}
+			catch (IOException e) {
+				e.printStackTrace();
+			}
+		
+//		while (s.hasNextLine()) {
+//			String line = s.nextLine();
+//			System.out.println(line);
+//		}
+		while (s.hasNextLine()) {
+			char[] array = new char[999];
+			String line = s.nextLine();
+			Scanner t = new Scanner(line);
+			int character = 0;
+			int i = 0;
+
+			while (true) {
+			
+			if (t.nextInt(i) == -1) {
+			array[i] = (char)character;
+				break;
+			}
+			
+			character = t.nextInt();
+			array[i] = (char)character;
+			i++;
+			}
+			 
+			for (int j = 0; j < array.length-2; j++) {
+				newString += array[j];
+			}
+			
+			System.out.println(array);
+		}
+		fR.close();
+	}
+}
