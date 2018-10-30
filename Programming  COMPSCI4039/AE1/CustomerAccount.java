@@ -27,6 +27,36 @@ public class CustomerAccount {
 		return customer;
 	}
 	
+	public Wine orderWine(Scanner s, CustomerAccount customer, Wine wine) {
+		// Create a new array that'll contain a list of wine objects. Need to initialise it with a random number
+        // assume that the user will buy less than 99999 bottles of wine!
+		System.out.print("Please enter wine name: ");
+		String wineName = s.nextLine();
+		do {
+			
+
+		if (wineName.equals(" ")) {
+			break;
+		}
+		
+		System.out.print("Please enter quantity (-ve equals returns): ");
+		int quantity = Integer.parseInt(s.nextLine());
+		System.out.print("Please enter the price per bottle: £");
+		double price = Double.parseDouble(s.nextLine());
+		
+		if (quantity > 0) {
+			customer.buyWine(quantity, price);
+		} else {
+			customer.returnWine(quantity, price);
+		}
+		wine.addWine(new Wine(wineName, quantity, price)); //create a  reference to a new object using user input, that'll be stored in array Wine index 'i'.
+		System.out.println(customer.getName() + ". Your balance is £" + String.format("%.2f", customer.getBalance()));
+		System.out.print("Please enter wine name: ");
+		wineName = s.nextLine();
+		} while (!wineName.equals(" "));
+		return wine;
+	}
+	
 	public double getIntitialBalance() { //return initial balance
 		return this.initialBalance;
 	}
