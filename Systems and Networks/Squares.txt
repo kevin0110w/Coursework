@@ -1,0 +1,17 @@
+;Program sumsum
+; This program finds …
+; sum = 1
+; limit = 300
+; while (sum < limit) 
+; { sum = sum + sum}
+
+		LOAD R1,sum[R0]
+		LOAD R2,limit[R0]
+LOOP 	CMPLT R3,R1,R2
+		ADD R1,R1,R1
+		JUMP loop[R0]
+
+
+
+sum DATA $0001
+limit DATA $012c

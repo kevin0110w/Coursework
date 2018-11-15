@@ -1,0 +1,10 @@
+; Program Add. y = x+32; initially x = 10
+; The program
+LOAD R1,x[R0] ; R1 = x
+LEA R2,32[R0] ; R2 = 32
+ADD R3,R1,R2 ; R3 = x+32
+STORE R3,y[R0] ; y = x+32
+TRAP R0,R0,R0 ; Stop
+; The data
+x DATA 10 ; 10
+y DATA 0 ; 0

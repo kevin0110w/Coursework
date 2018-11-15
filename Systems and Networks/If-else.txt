@@ -1,0 +1,38 @@
+; Assembly language for following code below
+; a = 5;
+; if (x<10)
+;	(y=3)
+; else
+;	(z=4)
+; b = 6
+
+; a = 5
+	 LEA 	R1,$0005[R0] ; R1 = 5
+	 STORE 	R1,a[R0]   ; a = 5
+	
+; if (x<10)
+	 LEA 	R1,$00010[R0] ; R1 = 10 - assigning R1 as a constant
+	 LOAD 	R2,x[R0]	  ; R2 = x 
+	 CMPLT 	R3,R2,R1    ; R3 = R2 < R1
+	 JUMPF 	R3,else[R0] ; Jump to else if R3 is false
+	
+; if true
+	 LEA 	R1,$0003[R0] ; R1 = 3
+	 STORE 	R1,y[R0]   ; y = 3
+	
+; if false z=4
+else LEA	R1,$0004[R0] ; R1 = 4
+	 STORE  R1,z[R0]	 ; z = 4
+	 
+; b = 6
+done LEA	R1,$0006[R0] ; R1 = 6
+	 STORE  R1,b[R0]	 ; b = 6
+	 
+	 
+	 TRAP R0, R0, R0
+	 
+	  a  DATA  $0000
+	  b  DATA  $0000
+	  x  DATA  $0000
+	  y  DATA  $0000
+	 

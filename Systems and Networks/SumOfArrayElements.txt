@@ -1,0 +1,33 @@
+;Sum array elements
+;Given an array x[0], ..., x[n-1], write an assembly 
+;language program, Sum, to compute the sum of the elements.
+;Test the program with a 5 element array as follows: 
+;{17, 2, 150, -3, 25}
+
+	LOAD R1,i[R0] ; load i into R1 .. use i as index into array
+	LOAD R3,n[R0] ; load n into R3 .. upper boundary
+	LEA R6,$0001[R0] ; set R6 as a constant for incrementing i
+	LOAD R7,sum[R0] ; load sum into R7
+	
+
+WHILE CMPLT R4,R1,R3 ; compare if R1 (i) is less than R3 (n) (while i < n)
+	  JUMPF R4,OUT[R0] ; jump out if false 
+	  LOAD R2,X[R1] ; Load x[i] in R
+	  ADD   R5,R2,R5 ; sum = x[i] + sum
+	  ADD	R1,R1,R6 ; i++
+	JUMP WHILE[R0]
+	  
+OUT	 STORE  R5,sum[R0] ; store total sum into sum variable
+		
+	TRAP R0,R0,R0
+
+X DATA 17
+  DATA 2
+  DATA 150
+  DATA -3
+  DATA 25
+  
+sum DATA 0
+
+n DATA 5
+i DATA 0

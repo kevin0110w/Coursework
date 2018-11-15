@@ -1,0 +1,24 @@
+;Factorial up to 5
+		LOAD R1,x[R0]
+	LOAD R2,i[R0]
+	LOAD R3,n[R0]
+	LEA  R5,$0001[R0]
+	
+LOOP	CMPLT R4,R2,R3
+	JUMPF R4,OUT[R0]
+	MUL   R1,R1,R2
+	ADD	  R2,R2,R5
+	JUMP  LOOP[R0]
+	
+OUT STORE R4,x[R0]
+	
+	TRAP R0,R0,R0
+
+
+
+
+
+
+x DATA $0001
+i DATA $0001
+n DATA $0005

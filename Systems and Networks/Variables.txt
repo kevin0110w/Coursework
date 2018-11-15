@@ -1,0 +1,22 @@
+; x = 13
+; y = x+2
+; z = x - (y * 3)
+
+; The program
+
+ LOAD R1,x[R0] ; stored contents of x in R1
+ LEA  R2,$0002[R0] ; store 2 into R2
+ ADD  R2,R1,R2     ; Add contents of R2 (2) and contents of R1 and stored in R2
+ LEA R3,$0003[R0] ; Store 3 into Register 3
+ MUL R4,R2,R3 ; mul R2 and R3 and store into R4
+ SUB R4,R1,R4 ; substituate contents from r4 (y*3) from r1 (x)
+ STORE R4,z[R0] ; store contents of mul into R2
+ STORE R2,y[R0] ;  Store contents of R2 (15) into y
+ STORE R1,x[R0] ; Store contents of R1 into x
+ TRAP R0,R0,R0 ; Terminate
+
+; The Data
+
+x DATA $000d ; x = 13
+y DATA $0000 ; y = 0
+z DATA $0000 ; z = 0
