@@ -1,0 +1,5 @@
+SELECT *
+FROM DOG
+WHERE KENNELNAME IN (SELECT KENNELNAME
+					FROM DOG
+		WHERE KENNELNAME = 'Island kennel club' OR KENNELNAME = 'Novar kennel club' OR KENNELNAME = 'Canine kennel club');
