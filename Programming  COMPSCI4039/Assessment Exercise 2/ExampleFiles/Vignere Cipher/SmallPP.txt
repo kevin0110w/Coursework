@@ -1,0 +1,14 @@
+THIS is 
+a file
+to be
+encoded in java
+with
+some more
+0123
+text and 
+some
+&&
+symbols
+**()))
+that will
+be ignored!!
