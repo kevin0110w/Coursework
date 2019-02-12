@@ -1,17 +1,9 @@
 package lab;
 
-public class maxFinder   {
+public class maxFinder2   {
 	public static class maxRow implements Runnable {
 		private Double[] row;
-		private Double[] storedArray;
-		private int position;
 		private SharedDouble shared;
-
-		public maxRow(Double[] row, Double[] storedArray, int position) {
-			this.row = row;
-			this.storedArray = storedArray;
-			this.position = position;
-		}
 		
 		public maxRow(Double[] row, SharedDouble shared) {
 			this.row = row;
@@ -34,21 +26,6 @@ public class maxFinder   {
 			}
 			return max;
 		}
-		
-		/**
-		 * This method will return the maximum value in a 1D array
-		 * @param anArray is a 1D array prepopulated with random numbers
-		 * @return the maximum value
-		 */
-		public static double findMax(Double[] anArray) {
-			Double max = 0.0;
-			for (int i = 0; i < anArray.length; i++) {
-				if (anArray[i] >= max) {
-					max = anArray[i];
-				}
-			}
-			return max;
-		}
 
 		public static void main(String[] args) {
 			int nRows = 100;
@@ -56,15 +33,10 @@ public class maxFinder   {
 			Double[][] randArray = createArray(nRows, nCols);
 			Double max = findMax2D(randArray);
 			System.out.println("The max is: " + max);
-			
 			SharedDouble shared = new SharedDouble();
 			shared.setD(0.0);
-			Double[] storedArray = new Double[nRows]; //a 1d array as long as the number of rows
 			Thread[] threads = new Thread[nRows]; // a thread for each row
 			for (int i = 0; i < nRows; i++) {
-//				threads[i] = new Thread(new maxRow(randArray[i], storedArray, i));
-//					threads[i].start();
-//				}
 				threads[i] = new Thread(new maxRow(randArray[i], shared));
 				threads[i].start();
 			}
@@ -75,21 +47,9 @@ public class maxFinder   {
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-//				Double[] finalValue = new Double[1];
-//				Thread finalThread = new Thread(new maxRow(storedArray, finalValue, 0));
-//				finalThread.start();
-//			try {
-//				finalThread.join();
-//			} catch (InterruptedException e) {
-//				e.printStackTrace();
-//			}
-//			System.out.println(finalValue[0]);
 				System.out.println(shared.getD());
 		}
-		
-		
 
-		
 		/**
 		 * Create a 2D array populated with random numbers.
 		 * @param nRows is the number of rows to be in 2d array
@@ -109,20 +69,19 @@ public class maxFinder   {
 		/**
 		 * Each thread will find the max in a row and stored in a cell within a new row.
 		 */
-		@Override
 		public void run() {
-			for (int i = 0; i < row.length; i++) {
+			for (int i = 0; i < this.row.length; i++) {
 				Double globalMax = shared.getD();
-				if (row[i] >= globalMax) {
+				if (this.row[i] >= globalMax) {
 					try {
                         Thread.sleep(1);
+                        
                     }catch(InterruptedException e) {
                         e.printStackTrace();
                     }
-                    shared.setD(row[i]);
+					shared.setD(row[i]);
 				}
 			}
-//			storedArray[position] = findMax(row);
 		}
 	}
 }

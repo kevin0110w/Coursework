@@ -22,5 +22,4 @@ package lab;
 		Thread t = new Thread(m);
 		t.start();
 	}
-
 	}
