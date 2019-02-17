@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="glasgow/ac/uk/queue/" kind="src" path="Lab_03_workspace_20190121/SimpleCalc/src"/>
+	<classpathentry kind="src" path="Lab_03_workspace_20190121/SimpleCalc/src/glasgow/ac/uk/queue"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="Lab_03_workspace_20190121/SimpleCalc/bin"/>
+</classpath>
