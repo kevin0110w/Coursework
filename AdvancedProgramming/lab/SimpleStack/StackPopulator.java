@@ -1,3 +1,5 @@
+package lab.SimpleStack;
+
 import java.util.Random;
 
 /*
@@ -13,6 +15,7 @@ public class StackPopulator implements Runnable {
     public StackPopulator(SimpleStack stack) {
         this.stack = stack;
     }
+    
     public void run() {
         while(true) {
             Integer nextVal = r.nextInt(1000);
@@ -42,6 +45,7 @@ public class StackPopulator implements Runnable {
             e.printStackTrace();
         }
         new Thread(new SimpleStackRemover(ss),"a").start();
-        new Thread(new SimpleStackRemover(ss),"b").start();
+//        new Thread(new SimpleStackRemover(ss),"b").start();
+//        new Thread(new SimpleStackRemover(ss),"c").start();
     }
 }

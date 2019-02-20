@@ -2,7 +2,14 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry excluding="glasgow/ac/uk/queue/" kind="src" path="Lab_03_workspace_20190121/SimpleCalc/src"/>
+	<classpathentry kind="src" path="lab4"/>
+	<classpathentry kind="src" path="lecture_07_code_designpatterns_II"/>
+	<classpathentry kind="src" path="crawler"/>
 	<classpathentry kind="src" path="Lab_03_workspace_20190121/SimpleCalc/src/glasgow/ac/uk/queue"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="/application/src/crawler.jar"/>
+	<classpathentry kind="lib" path="/application/dependencies/je-7.5.11.jar"/>
+	<classpathentry kind="lib" path="/application/dependencies/tika-app-1.17.jar"/>
+	<classpathentry kind="src" path="/Lecture7 Renamed"/>
 	<classpathentry kind="output" path="Lab_03_workspace_20190121/SimpleCalc/bin"/>
 </classpath>

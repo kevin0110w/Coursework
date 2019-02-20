@@ -1,3 +1,5 @@
+package lab.SimpleStack;
+
 /*
     Object that can be placed on a thread to remove jobs from the 
     stack and then 'run' them (i.e. sleep for their duration).
@@ -11,7 +13,7 @@ public class SimpleStackRemover implements Runnable {
     public void run() {
         while(true) {
             Integer val = ss.getJob();
-            System.out.println(Thread.currentThread().getName() + " Got job");
+            System.out.println(Thread.currentThread().getName() + " Got job: " + val);
             try {
                 Thread.sleep(val);
             }catch(InterruptedException e) {
