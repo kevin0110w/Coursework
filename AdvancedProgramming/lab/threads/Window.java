@@ -11,7 +11,13 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingWorker;
-
+/**
+ * This class is responsible for building an interface with a textfield and 2 buttons, start and stop.
+ * If a user enters a number in the textfield, followed by clicking the start button,
+ * the number will start counting down to 0 per second, unless the user clicks stop in which case, 
+ * the program will stop counting.
+ * It does this by using a swingworker object
+ */
 public class Window extends JFrame implements ActionListener {
 	private JTextField field;
 	private JButton start, stop;
@@ -22,7 +28,10 @@ public class Window extends JFrame implements ActionListener {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setup();
 	}
-
+	
+	/**
+	 * Setting up the general layout of the gui
+	 */
 	public void setup() {
 		JPanel bottomPanel = new JPanel(new FlowLayout());
 		field = new JTextField(20);
@@ -36,6 +45,13 @@ public class Window extends JFrame implements ActionListener {
 		this.add(bottomPanel);
 	}
 	
+	/**
+	 * Listeners for the buttons
+	 * If start button is pressed, the string in the textfield is converted to a number which is passed to a swingworker 
+	 * object that is then executed
+	 * If stop button is pressed, a method in the swingworker class is called, flipping a boolean field in the object and causing
+	 * it to stop during it's run method
+	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		try {
@@ -50,20 +66,23 @@ public class Window extends JFrame implements ActionListener {
 		}
 	}
 
-
+	/**
+	 * Swing worker nested class
+	 *
+	 */
 	public class CounterWorker extends SwingWorker<Void, Integer> {
 		private int startNumber;
-		private boolean stop = true;
+		private boolean stop;
 		private JTextField field;
 
 		public CounterWorker(int number, JTextField field) {
 			this.startNumber= number;
 			this.field = field;
+			this.stop = true;
 		}			
-
+		
 		public void setStop() {
 			this.stop = false;
-			
 		}
 
 		protected void process(List<Integer> values) { 
