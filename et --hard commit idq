@@ -1,0 +1,563 @@
+[33mcommit dfe2cc215aadbcf768bfe0e85d64ee17a7c2e9fa[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kevin Wu <0808148w@student.gla.ac.uk>
+Date:   Wed Feb 27 21:44:20 2019 +0000
+
+    adding csf stuff
+
+[33mcommit 9ccff456bfc8992392f5e61617ff1e266c06cb61[m
+Author: Kevin Wu <0808148w@student.gla.ac.uk>
+Date:   Tue Feb 26 09:49:14 2019 +0000
+
+    coursework, threads, ads
+
+[33mcommit 3da8d133f6bd11e721eae56c322f49a9e8cf0108[m
+Author: Kevin Wu <0808148w@student.gla.ac.uk>
+Date:   Wed Feb 20 10:30:30 2019 +0000
+
+    coursework, threading, s-eng
+
+[33mcommit e87df40b79383bf6ba3369904033d2aed068080f[m
+Author: Kevin Wu <0808148w@student.gla.ac.uk>
+Date:   Sun Feb 17 17:43:41 2019 +0000
+
+    working on various homework, software eng, programming etc.
+
+[33mcommit a7e8bb8ba3751b398dcce90fcd7b025a20c291c6[m
+Author: Kevin Wu <0808148w@student.gla.ac.uk>
+Date:   Fri Feb 15 13:49:32 2019 +0000
+
+    doing some work on sets/stacks/queues for ads and threading for ap
+
+[33mcommit ba1c3bac7adb9468fe05491884f9ccd1b3e3d6e9[m
+Author: Kevin Wu <0808148w@student.gla.ac.uk>
+Date:   Tue Feb 12 12:40:03 2019 +0000
+
+    working on threads
+
+[33mcommit 567a8d2b09dde5f1148ead44994f1c113036a0af[m
+Author: Kevin Wu <0808148w@student.gla.ac.uk>
+Date:   Mon Feb 11 11:28:42 2019 +0000
+
+    working on ads and ap
+
+[33mcommit f5b2da1cf8f1f5f8bbd5e660e2a7c1f4ddd38956[m
+Author: Kevin Wu <0808148w@student.gla.ac.uk>
+Date:   Fri Feb 8 18:06:50 2019 +0000
+
+    working through some code for ads and ap
+
+[33mcommit 633f1db9911e6187784cb6d7a065ce25527529b4[m
+Author: Kevin Wu <0808148w@student.gla.ac.uk>
+Date:   Fri Feb 1 22:51:53 2019 +0000
+
+    creating new folder and re-uploading from command line
+
+[33mcommit e3f19478c19c580cd58946c50956a4f0a304e7a0[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Jan 29 09:12:16 2019 +0000
+
+    Solution to AE3 - gui scatterplot
+
+[33mcommit 753006364bf332c4da50793ef55d56fd6336e96a[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Fri Nov 30 13:55:28 2018 +0000
+
+    datasbase latesst
+
+[33mcommit bb3f4253d3f3edbc79a3658dec6f6a5233cc8863[m
+Author: kevin0110w <kevin0110w@gmail.com>
+Date:   Wed Nov 21 17:42:59 2018 +0000
+
+    Assessment Exercise 2
+
+[33mcommit a38d9e0db2882514eab27a626c81a5fb13c79d97[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Mon Nov 19 13:11:56 2018 +0000
+
+    SQL Queries
+
+[33mcommit 9eb0f3574bcd5f9c33306327c63968db0ad81548[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Fri Nov 16 14:54:35 2018 +0000
+
+    Changing folder name
+
+[33mcommit c12bfbc5a0b1aaaf4e28895815c2602fc39a44bd[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Fri Nov 16 14:05:02 2018 +0000
+
+    SQL via Java
+
+[33mcommit 3c4bd75f6a3bcbde89b1bb73cba8f3f4b052b701[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Thu Nov 15 16:28:08 2018 +0000
+
+    Assembly Language
+
+[33mcommit f9a35537f6f43f93b50adc3c058746cd8c4ec354[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Thu Nov 15 16:18:54 2018 +0000
+
+    Various code
+
+[33mcommit 9576aa93bdc306b9e46aeafa25ab849f99e50878[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Thu Nov 15 13:14:25 2018 +0000
+
+    Uploading past work
+    
+    Uploading past uni work, ntu, coding bat etc..
+
+[33mcommit 9a5bad640a528462922550f38e280854aa408895[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Wed Nov 7 15:11:32 2018 +0000
+
+    Assessment Exercise 1
+    
+    The goal here was to create a program that would ask a user to input their name and an opening balance. It would then prompt a user to enter a series of transaction (wine name, price per bottle and no of bottles) and display the running balance each time. If the user inputs a -ve quantity #, they are refunded 80% of the cost. The user can enter space for a name to exit the program which should then print a receipt or statement to the computer with their details and list of transactions. This assignment was worth 10% credits. I chose to use an array to store wine object classes in each index.
+
+[33mcommit 2bc3729f70654f7efd832048916be10172b76f61[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 30 13:12:14 2018 +0000
+
+    Deleting files from github
+
+[33mcommit b58971169999eb3561f0fc370ab8717beb7ad908[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 30 11:11:34 2018 +0000
+
+    Wine, Main and CustomerAccount classes
+    
+    Doing some refactoring  - tinkering
+
+[33mcommit 91fe9a1206b2e56ae0cacb99bbd65d41097f44d5[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 30 11:07:17 2018 +0000
+
+    AE1
+    
+    Wine, CustomerAccount and Main classes
+
+[33mcommit 9aa955c3431d2aad2308022f2e565fc4b3949ada[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 18:11:46 2018 +0100
+
+    Create afsafsa
+
+[33mcommit 59a5fd00e36771a3ce0186c8e31cfb079e5c7faa[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 17:38:08 2018 +0100
+
+    Rename ExerciseTwoFileIO.java to ExerciseTwoFileIOc.java
+
+[33mcommit db06d9444991a5492bfe7840c9e18d4f5e5aefe6[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 17:20:57 2018 +0100
+
+    Create ExerciseTwoFileIO.java
+
+[33mcommit 7d9a1117f35b44ec1baa6443cc3154c1a32a7bb2[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 17:20:23 2018 +0100
+
+    Create ExerciseOneOne.java
+
+[33mcommit 36fa9d6e7afc50cc612bb492f6cdc2804fcdf911[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 17:19:50 2018 +0100
+
+    Create OverdrawnException.java
+
+[33mcommit d8e474be251fa9a023aeb30750bd1da67e905b65[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 17:19:32 2018 +0100
+
+    Create Test.java
+
+[33mcommit 10d4c84105a920ef59eefd2957039f8aab777c6b[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 17:18:47 2018 +0100
+
+    Create Person.java
+
+[33mcommit b13d64821acaa93b6f5c86edec9d711c30aa7885[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 17:18:37 2018 +0100
+
+    Create SavingsAccount.java
+
+[33mcommit 320fdc3a3edd3004243bef32069aa0eea76e7e9c[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 17:18:24 2018 +0100
+
+    Create BankAccount.java
+
+[33mcommit d7fba45e5e2c94e44ff6e6f5da68fbd02385e6b8[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 16:14:08 2018 +0100
+
+    Create BankAccount.java
+
+[33mcommit 8ee44223740f00ca1761224a292c0fc116d0512d[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 16:13:54 2018 +0100
+
+    Create Main.java
+
+[33mcommit 6515b7be79dc90d2073274da0c4fff3ccf5fd7b5[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 16:13:42 2018 +0100
+
+    Create Person.java
+
+[33mcommit ef414379ac8f7ebb726d9a4bccf6a75e5f5fc5ef[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Oct 16 16:13:27 2018 +0100
+
+    Create SavingsAccount.java
+
+[33mcommit 91ee4d19527906c5998e40c4adc6931d8f5e983e[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Oct 13 21:46:51 2018 +0100
+
+    Create Exercise02.1:Pyramid.md
+
+[33mcommit 0c5144db1f69ea89cce3f90b3ece3cf291c2f2f5[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Oct 13 21:46:06 2018 +0100
+
+    Create Exercise02.1:Pyramid.java
+
+[33mcommit 1251cb3ac0689514aa5a149036b995e280d3d84d[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 25 19:02:04 2018 +0100
+
+    Create Person.java
+
+[33mcommit df25f39b5edb6adefac4eba9c71acbd3e457ffe2[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 25 19:01:42 2018 +0100
+
+    Create Main.java
+
+[33mcommit ea2eaad2c98a04906e95b0c4379e568c86de6d8b[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 25 18:56:14 2018 +0100
+
+    Create Person.java
+
+[33mcommit 2bde04c4b0d1f62341affe45b31b175ea14dcfbd[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 25 18:55:57 2018 +0100
+
+    Create Main.java
+
+[33mcommit 246943d94b798ab56fd5d1c5a8e4aa11140da0e7[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 25 18:55:40 2018 +0100
+
+    Rename Programming  COMPSCI4039/Week-2/Exercise1:bankAccount.Java to Programming  COMPSCI4039/Week-2/Exercise2- bankAccount/bankAccount.Java
+
+[33mcommit 5b58cf9e2deb900281c3f6e0754ecc305775eafc[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 25 18:54:44 2018 +0100
+
+    Create Exercise1:bankAccount.Java
+
+[33mcommit 2e1cdda88d3076aa289b05634aea71bc72eb629f[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 25 09:34:55 2018 +0100
+
+    Create Exercise6vi:AgeCalc.java
+
+[33mcommit c9f77424efd54e43b2ec38e8b303f28e2859c0b6[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Mon Sep 24 21:17:48 2018 +0100
+
+    Update Exercise6v:guessingNumberGame.java
+    
+    Updated code to include either 'too high' or 'too low' depending on whether the user's guessed number is either higher or lower than the pseudorandom number respectively.
+    
+    There is also a counter which keeps track of the number of guesses.
+
+[33mcommit 9c3473e0045a509a8b0877a65471dab54375bd70[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:21:48 2018 +0100
+
+    Update Exercise6i:firstTenTerms.java
+
+[33mcommit e7f8e301983c052395ef6754ce029e632b31cd2f[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:18:56 2018 +0100
+
+    Rename Exercise6vii - calculatingDoubleDivision.java to Exercise6vii:calculatingDoubleDivision.java
+
+[33mcommit cdbdf0b4f68be0a52968837b11548db24691da55[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:18:45 2018 +0100
+
+    Rename Exercise6vi - pyramid.java to Exercise6vi:pyramid.java
+
+[33mcommit 0bce729f80cafd60e4b9b4872d5723d903b3dead[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:18:10 2018 +0100
+
+    Rename Exercise6.2 to Exercise6ii:timesTableRefined.java
+
+[33mcommit 7d61071d91df4619856406da11fbfdf0ad4ffb71[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:17:27 2018 +0100
+
+    Update and rename Exercise6.1 to Exercise6i:firstTenTerms.java
+
+[33mcommit b64d16cd79c448b5034b04c163c4fe6685a21da9[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:16:46 2018 +0100
+
+    Update and rename Exercise5.3 to Exercise5vi:scannerExtended.java
+
+[33mcommit 4c85ac35b34465a245ea65f73620d4293822fa6c[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:16:02 2018 +0100
+
+    Rename Exercise5.1 to Exercise5i:scanner.java
+
+[33mcommit 2e8c326150819c5f30ecc8d80911a6ab2d54c169[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:15:46 2018 +0100
+
+    Update and rename Exercise5.2 to Exercise5ii:summariseCircleExtended.java
+
+[33mcommit 5d8ab79bb07f8a33fcc5a9898a5cebfa276dedf8[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:14:12 2018 +0100
+
+    Update and rename Exercise4.4 to Exercise4iv:isLeapYearExtended.java
+
+[33mcommit 3be60c1dbec4beadba62e323fa350830da71e3bf[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:11:37 2018 +0100
+
+    Update and rename Exercise4.1 to Exercise4i:isLeapYear.java
+
+[33mcommit 1ff3dc6e6bf5f358a1ac43f3df0b637048932cc5[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:10:54 2018 +0100
+
+    Update and rename Exercise3.2 to Exercise3ii:computingAreasAndCircumferenceOfACircle.java
+
+[33mcommit a35246fb8f815ea32b14a6a1b1204ea6166b9d39[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:09:18 2018 +0100
+
+    Update and rename Exercise3.1 to Exercise3i:methods.java
+
+[33mcommit bbe5dfb37eaa41e91fd01678f2f6992d76c684a9[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:07:57 2018 +0100
+
+    Rename Exercise2.4 to Exercise2iv:stringOperations.java
+
+[33mcommit c6efa32f6a024fa54692763955ea058dfacd40ea[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:07:38 2018 +0100
+
+    Rename Exercise2.3 to Exercise2iii:mathematicalOperationsWithVariables.java
+
+[33mcommit c9fb5f3123580bdc277c8c9efa8b28effff8173b[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:05:44 2018 +0100
+
+    Rename Exercise7.1 to Exercise7ii:timesTablesRefined.java
+
+[33mcommit c2ab4aaa5f9189bda8d6f6b58b61f675b9e1cdcd[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:05:10 2018 +0100
+
+    Rename Exercise7:timesTable.java to Exercise7i:timesTable.java
+
+[33mcommit 24cb2d08054ab6c671bf2f58be7f9e246a1b31e2[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:04:22 2018 +0100
+
+    Rename Exercise6.5:guessingNumberGame.java to Exercise6v:guessingNumberGame.java
+
+[33mcommit 76053d5ad06823e9f641dbb42bb8ac1aaead3c1d[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:03:42 2018 +0100
+
+    Rename Exercise2.2.java to Exercise2ii:types.java
+
+[33mcommit d7061d9af134082ce2ecccb88a6dfd0a49d0bdc8[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 22:02:51 2018 +0100
+
+    Update and rename Exercise2.1:.java to Exercise2i:myFirstVariable.java
+
+[33mcommit 90b51d75072a92ec43b0959bf739515a1fc434df[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 21:59:58 2018 +0100
+
+    Rename Lab1Ex1.java to Exercise1:helloWorld.java
+
+[33mcommit e682a36910a4dcbaa38edd5a180d5aa90bcc1e37[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 21:59:00 2018 +0100
+
+    Create Exercise6ix:rockPaperScissors.java
+
+[33mcommit 6f23589ff86f5ee823b2774fb3e88547f15cfd8f[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 17:53:26 2018 +0100
+
+    Create Exercise6viii: paddingString.java
+
+[33mcommit 0c7a011f1fdc82a2ca127b207b33ad305bfc6947[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 17:35:11 2018 +0100
+
+    Rename Exercise6vii - calculatingDoubleDivision to Exercise6vii - calculatingDoubleDivision.java
+
+[33mcommit 45f416abd79d0761acbd3183c97abb2cc2bb37d3[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 17:34:55 2018 +0100
+
+    Create Exercise6vii - calculatingDoubleDivision
+
+[33mcommit aa00f4099d38021f60998bfdc2d82b6ffcf4b98e[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Sat Sep 22 17:16:43 2018 +0100
+
+    Create Exercise6vi - pyramid.java
+
+[33mcommit d2a3deab9bc7bdc264305ccf5ba8a378efb08302[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Wed Sep 19 15:10:06 2018 +0100
+
+    Create Exercise7:timesTable.java
+
+[33mcommit 793160f3f32f00a51f36af4d21932540991b69c6[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Wed Sep 19 14:58:00 2018 +0100
+
+    Rename Exercise6.5-guessingNumberGame.java to Exercise6.5:guessingNumberGame.java
+
+[33mcommit 05a727dbd8059a8ee8e67a9c5c5efe96aa4c2cf4[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Wed Sep 19 14:57:20 2018 +0100
+
+    Update and rename Programming  COMPSCI4039/Exercise6.5-guessingNumberGame/guessingNumberGame.java to Programming  COMPSCI4039/Exercise6.5-guessingNumberGame.java
+
+[33mcommit cd9fbefc70f6272a9ca9e6168b9dd71245fc0541[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Wed Sep 19 14:56:29 2018 +0100
+
+    Create guessingNumberGame.java
+
+[33mcommit 85ab4603aaeb8d6971a362388ac68c20e727a72f[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:46:06 2018 +0100
+
+    Create README.md
+
+[33mcommit e682dd99277f018d6d0e266fd4c0ab6763a2414a[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:44:55 2018 +0100
+
+    Create Exercise7.1
+
+[33mcommit 9727a56c017104808347675c41a837c04f63efce[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:44:40 2018 +0100
+
+    Create Exercise6.2
+
+[33mcommit 592752ff8b276e801939129474b65de3f11ff4ff[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:44:28 2018 +0100
+
+    Create Exercise6.1
+
+[33mcommit 1e078deb40e116725d78ed0a1cd3c8fcf6af0ab3[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:44:06 2018 +0100
+
+    Create Exercise5.3
+
+[33mcommit ce6d3b8a7819d1dbff6835c4718678322229ad63[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:43:58 2018 +0100
+
+    Create Exercise5.2
+
+[33mcommit 90ea85c46649179a38e6633598aa3a4830467a78[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:43:45 2018 +0100
+
+    Create Exercise5.1
+
+[33mcommit 6281b2c46be7d29ff5c252d62280c318ce8c8f5c[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:43:33 2018 +0100
+
+    Create Exercise4.4
+
+[33mcommit fcb20beeeb594ec2c6bbb21747b8a7902dcaa826[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:43:22 2018 +0100
+
+    Create Exercise4.2
+
+[33mcommit 9dda5af04f5dab2e14753828193638cd9aa59835[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:43:10 2018 +0100
+
+    Create Exercise4.1
+
+[33mcommit 5c68928d4de6afed55899e4e06659bc6fa951996[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:42:55 2018 +0100
+
+    Create Exercise3.2
+
+[33mcommit e3559488051e448194bf0bba6433902cb8adc99f[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:42:41 2018 +0100
+
+    Create Exercise3.1
+
+[33mcommit aaaab53a148fde78ff920d787a0150c23a5f90b1[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:42:31 2018 +0100
+
+    Create Exercise2.4
+
+[33mcommit 004007cdce024a514051f75418bf50cafae2d77f[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:42:15 2018 +0100
+
+    Create Exercise2.3
+
+[33mcommit e8cf3955ee7a8d079018e240daca1e9bf9b1a9a8[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:42:04 2018 +0100
+
+    Create Exercise2.2.java
+
+[33mcommit 6a80ff5937c02755b09ad33bb9c4e1ae385e2db0[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:41:37 2018 +0100
+
+    Create Exercise2.1:.java
+
+[33mcommit dfa34f680e904cecbef23ebd65733c565fb630fc[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:41:13 2018 +0100
+
+    Create Lab1Ex1.java
+
+[33mcommit ded8f835bd12abbe4ef48c3c58186df80126bcad[m
+Author: kevin0110w <37250646+kevin0110w@users.noreply.github.com>
+Date:   Tue Sep 18 17:40:33 2018 +0100
+
+    Initial commit
