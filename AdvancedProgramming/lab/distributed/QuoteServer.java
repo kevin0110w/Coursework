@@ -12,7 +12,7 @@ public class QuoteServer {
 
 
 	public QuoteServer() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public static void main(String[] args) {

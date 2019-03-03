@@ -11,3 +11,9 @@
 /SimpleThreads.class
 /Window.class
 /Window$CounterWorker.class
+/IsPrime.class
+/PrimeNumberObject.class
+/SwingWorkers_CountDown$CounterWorker.class
+/SwingWorkers_CountDown.class
+/SwingWorkers_PrimeCalculator$CounterWorker.class
+/SwingWorkers_PrimeCalculator.class

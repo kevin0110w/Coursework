@@ -18,11 +18,11 @@ import javax.swing.SwingWorker;
  * the program will stop counting.
  * It does this by using a swingworker object
  */
-public class Window extends JFrame implements ActionListener {
+public class SwingWorkers_CountDown extends JFrame implements ActionListener {
 	private JTextField field;
 	private JButton start, stop;
 	private CounterWorker c;
-	public Window()  {
+	public SwingWorkers_CountDown()  {
 		this.setSize(800, 200);
 		this.setVisible(true);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -58,9 +58,14 @@ public class Window extends JFrame implements ActionListener {
 			if (e.getSource() == start) {	
 				int startNumber = Integer.parseInt(field.getText());
 				c = new CounterWorker(startNumber, field);
-				c.execute(); }
+				c.execute();
+				start.setEnabled(false);
+				stop.setEnabled(true);
+			}
 			else if (e.getSource() == stop) {
 				c.setStop();
+				stop.setEnabled(false);
+				start.setEnabled(true);
 			}
 		}catch (NumberFormatException exception) {
 		}
@@ -108,6 +113,6 @@ public class Window extends JFrame implements ActionListener {
 	}
 
 	public static void main(String[] args) {
-		new Window();
+		new SwingWorkers_CountDown();
 	}
 }

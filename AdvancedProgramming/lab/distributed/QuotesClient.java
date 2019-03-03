@@ -12,13 +12,12 @@ import java.util.Scanner;
 public class QuotesClient {
 	
 	public QuotesClient() {
-		// TODO Auto-generated constructor stub
 	}
 
 	public static void main(String[] args) {
 		Socket s = null;
 		try {
-			s = new Socket("130.209.157.54", 8765);
+			s = new Socket("193.62.251.36", 8765);
 			Scanner reader = new Scanner(s.getInputStream());
 			while (reader.hasNextLine()) {
 				System.out.println(reader.nextLine());
