@@ -1,0 +1,1 @@
+Select kennelname, COUNT(kennelname) AS "Number of Dogs" from dog group by kennelname having Count(*) > 3 Order By Count(kennelname) DESC LIMIT 1

@@ -1,0 +1,1 @@
+Select DISTINCT d.name, b.breedname from breed as b, dog as d where b.breedname = d.breedname order by d.name;

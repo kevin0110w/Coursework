@@ -1,0 +1,1 @@
+Select o.name, Count(*) AS "Number of Dogs" from dog as d, owner as o where d.ownerid = o.ownerid group by o.name order by o.name

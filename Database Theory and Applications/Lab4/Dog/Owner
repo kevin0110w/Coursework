@@ -1,0 +1,6 @@
+CREATE TABLE Owner(
+ownerid int NOT NULL,
+name varchar(256),
+phone int,
+Primary Key (ownerid)
+);

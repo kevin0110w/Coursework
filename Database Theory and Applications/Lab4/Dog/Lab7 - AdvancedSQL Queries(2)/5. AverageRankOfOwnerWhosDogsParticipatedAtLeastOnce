@@ -1,0 +1,1 @@
+Select o.name, Round(AVG(a.place),1) AS "Average Rank" from owner as o, dog as d, attendance as a where o.ownerid = d.ownerid and d.dogid = a.dogid group by o.name;

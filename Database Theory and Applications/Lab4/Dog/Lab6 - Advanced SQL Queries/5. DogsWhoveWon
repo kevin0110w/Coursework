@@ -1,0 +1,1 @@
+Select DISTINCT d.name, d.dogid from dog as d, attendance as a where d.dogid = a.dogid and a.place = '1';

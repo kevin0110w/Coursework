@@ -1,0 +1,1 @@
+Select kennelname from Dog where name = mothername or name=fathername or mothername is null;

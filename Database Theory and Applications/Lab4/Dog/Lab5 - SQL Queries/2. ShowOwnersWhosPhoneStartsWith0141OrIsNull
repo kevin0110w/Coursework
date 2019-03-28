@@ -1,0 +1,1 @@
+Select DISTINCT name from owner where phone like '%0141%' or phone is null;

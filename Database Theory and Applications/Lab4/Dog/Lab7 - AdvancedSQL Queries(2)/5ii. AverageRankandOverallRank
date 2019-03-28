@@ -1,0 +1,8 @@
+Select o.name, Round(AVG(a.place),1) AS "Average Rank" 
+From owner as o, dog as d, attendance as a 
+Where o.ownerid = d.ownerid and d.dogid = a.dogid 
+Group by o.name
+Union
+Select 'Overall' as Name, Round(AVG(Attendance.place),3) AS "Average Rank"
+From Attendance
+Order By Name

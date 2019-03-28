@@ -1,0 +1,1 @@
+Select k.address, o.phone from kennel as k, owner as o, attendance as a, dog as d where k.kennelname = d.kennelname and o.ownerid = d.ownerid and a.dogid = d.dogid and a.place = '1';

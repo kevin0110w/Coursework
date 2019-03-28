@@ -1,50 +1,55 @@
 package lab.distributed;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Random;
 
-public class QuoteServer {
-
-
+public class QuoteServer  {
+	private final static int socketNumber = 8765;
+	private static ServerSocket listener;
+	private static Socket client;
+	private static ArrayList<String> actualQuotes;
+	private static PrintWriter writer;
+	private static BufferedReader reader;
+	private String line;
+	private static Random rand = new Random();
+	
 	public QuoteServer() {
 		
 	}
 
-	public static void main(String[] args) {
-		ServerSocket listener = null;
-		Socket client = null;
-		QuoteLoader quotes = new QuoteLoader();
-		ArrayList<String> actualquotes = new ArrayList<>();
-		actualquotes = quotes.loadQuotes("Quotes.txt");
-		Scanner reader = null;
-		Random rand = new Random();
-		try {
-			listener = new ServerSocket(8765);
+	public static void main(String[] args) throws IOException {
+			listener = new ServerSocket(socketNumber);
 			client = listener.accept();
+			actualQuotes = QuoteLoader.loadQuotes("quotes.txt");
+			writer = new PrintWriter(client.getOutputStream(), true);
+			reader = new BufferedReader(new InputStreamReader(client.getInputStream()));
+			while (true) {
+					int j = rand.nextInt(actualQuotes.size());
+					String line = actualQuotes.get(j);
+					writer.print(line);
+					if (reader.readLine() == null) {
+						break;
+					}
+					try {
+					Thread.sleep(5000);
+				}  catch (InterruptedException e) {
 
-			OutputStreamWriter os = new OutputStreamWriter(client.getOutputStream());
-			String line = "";
-			boolean write = true;
-			while (write) {
-				for (int i = 0; i < actualquotes.size(); i++) {
-					int j = rand.nextInt(actualquotes.size());
-					line = actualquotes.get(j);
-					
 				}
-				write = false;
 			}
-			os.write(line + '\n');
-			os.flush();
-			client.close();
-			listener.close();
-
-		} catch(IOException e) {
-
-		}
+				try {
+					client.close();
+					listener.close();
+					reader.close();
+					writer.close();
+				} catch (IOException e) {
+			}
 	}
 }

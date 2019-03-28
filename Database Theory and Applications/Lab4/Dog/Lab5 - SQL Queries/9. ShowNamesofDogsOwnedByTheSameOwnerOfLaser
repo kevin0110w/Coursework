@@ -1,0 +1,1 @@
+Select d.name from dog as d where d.name<>'Laser' and d.ownerid in (select ownerid from dog where name = 'Laser') order by d.name;

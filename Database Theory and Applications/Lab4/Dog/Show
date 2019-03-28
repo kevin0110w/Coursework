@@ -1,0 +1,6 @@
+CREATE TABLE Show(
+showname varchar(256) not null,
+opendate date not null,
+closedate date,
+Primary Key (showname, opendate)
+);

@@ -1,0 +1,1 @@
+Select DISTINCT d.name from dog as d, attendance as a where d.dogid = a.dogid and a.place ='1' and a.dogid in (select s.dogid from attendance as s group by s.dogid having Count(*)>1)

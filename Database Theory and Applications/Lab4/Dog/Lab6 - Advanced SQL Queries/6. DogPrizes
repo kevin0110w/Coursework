@@ -1,0 +1,1 @@
+Select d.name, a.place, a.place*100 AS "Reward" from dog as d, attendance as a where d.dogid = a.dogid;

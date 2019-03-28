@@ -1,0 +1,1 @@
+Select * from dog as d where d.kennelname = 'Novar Kennel Club' or d.kennelname = 'Canine kennel club' or d.kennelname = 'Island kennel club';

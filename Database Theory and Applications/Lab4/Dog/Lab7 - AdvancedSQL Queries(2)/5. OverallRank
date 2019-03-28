@@ -1,0 +1,3 @@
+Select 'Overall' as Name, Round(AVG(Attendance.place),3) AS "Average Rank"
+From Attendance
+Order By Name

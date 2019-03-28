@@ -1,0 +1,1 @@
+Select kennelname, Count(kennelname) as "Number Of Dogs" from dog group by kennelname order by Count(kennelname) DESC Limit 1;

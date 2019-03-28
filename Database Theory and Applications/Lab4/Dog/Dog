@@ -1,0 +1,13 @@
+Create Table Dog (
+dogid int not null,
+name varchar(256),
+ownerid int,
+kennelname varchar(256),
+breedname varchar(256),
+mothername varchar(256),
+fathername varchar(256),
+Primary key (dogid),
+Foreign Key (ownerid) references Owner(ownerid),
+Foreign Key(kennelname) references Kennel(kennelname),
+Foreign Key (breedname) references Breed(breedname)
+);

@@ -1,0 +1,1 @@
+Select showname, Count(*) AS "Number of Dogs" from attendance group by showname order by showname

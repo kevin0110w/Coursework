@@ -1,0 +1,9 @@
+Create Table Attendance (
+dogid int not null,
+showname varchar(256) not null,
+opendate date not null,
+place varchar(256),
+Primary key (dogid, showname, opendate),
+Foreign Key(dogid) references Dog(dogid),
+Foreign Key (showname, opendate) references Show(showname, opendate)
+);

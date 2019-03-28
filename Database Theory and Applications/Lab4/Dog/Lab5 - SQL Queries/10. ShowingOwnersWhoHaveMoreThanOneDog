@@ -1,0 +1,1 @@
+Select d.name, o.name from dog as d, owner as o where d.ownerid = o.ownerid and d.ownerid in (select ownerid from dog group by ownerid having Count(*)>1) order by o.name;

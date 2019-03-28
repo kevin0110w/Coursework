@@ -1,0 +1,1 @@
+Select d.name, o.name from dog as d, owner as o where d.ownerid = o.ownerid and d.dogid NOT IN (select dogid from attendance);

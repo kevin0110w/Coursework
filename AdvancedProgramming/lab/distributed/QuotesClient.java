@@ -17,7 +17,7 @@ public class QuotesClient {
 	public static void main(String[] args) {
 		Socket s = null;
 		try {
-			s = new Socket("193.62.251.36", 8765);
+			s = new Socket("127.0.0.1", 8765);
 			Scanner reader = new Scanner(s.getInputStream());
 			while (reader.hasNextLine()) {
 				System.out.println(reader.nextLine());
@@ -28,7 +28,7 @@ public class QuotesClient {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+		
 	}
 
 }

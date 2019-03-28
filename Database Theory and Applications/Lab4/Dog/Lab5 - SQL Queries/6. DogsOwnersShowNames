@@ -1,0 +1,1 @@
+Select d.name, o.name, a.showname from dog as d, owner as o, attendance as a where d.dogid = a.dogid and d.ownerid = o.ownerid order by showname;

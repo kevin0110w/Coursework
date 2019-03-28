@@ -1,0 +1,1 @@
+Select AVG(a.place) from attendance as a, dog as d where a.dogid = d.dogid and d.name like '%a%'

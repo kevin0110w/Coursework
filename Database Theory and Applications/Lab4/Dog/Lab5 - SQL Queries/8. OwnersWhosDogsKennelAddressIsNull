@@ -1,0 +1,1 @@
+Select o.name from owner as o, dog as d, kennel as k where o.ownerid = d.ownerid and d.kennelname = k.kennelname and k.address is null;

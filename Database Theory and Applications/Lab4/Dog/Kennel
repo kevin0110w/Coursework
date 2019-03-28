@@ -1,0 +1,6 @@
+CREATE TABLE Kennel (
+kennelname varchar(256) NOT NULL,
+address varchar(256),
+phone int,
+Primary Key (kennelname)
+);

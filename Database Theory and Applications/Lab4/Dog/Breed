@@ -1,0 +1,4 @@
+CREATE TABLE Breed (
+breedname VarChar(256) NOT NULL,
+Primary Key (breedname)
+);	
