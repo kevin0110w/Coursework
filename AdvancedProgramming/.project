@@ -14,4 +14,56 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>BaconDecorator.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Past_Papers/2017/BaconDecorator.java</locationURI>
+		</link>
+		<link>
+			<name>BasicBurger.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Past_Papers/2017/BasicBurger.java</locationURI>
+		</link>
+		<link>
+			<name>Burger.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Past_Papers/2017/Burger.java</locationURI>
+		</link>
+		<link>
+			<name>BurgerDataObserver.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Past_Papers/2017/BurgerDataObserver.java</locationURI>
+		</link>
+		<link>
+			<name>BurgerDecorator.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Past_Papers/2017/BurgerDecorator.java</locationURI>
+		</link>
+		<link>
+			<name>BurgerTestDecorator.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Past_Papers/2017/BurgerTestDecorator.java</locationURI>
+		</link>
+		<link>
+			<name>CheeseDecorator.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Past_Papers/2017/CheeseDecorator.java</locationURI>
+		</link>
+		<link>
+			<name>MealDecorator.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Past_Papers/2017/MealDecorator.java</locationURI>
+		</link>
+		<link>
+			<name>Observer.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Past_Papers/2017/Observer.java</locationURI>
+		</link>
+		<link>
+			<name>Subject.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Past_Papers/2017/Subject.java</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
