@@ -5,11 +5,12 @@ import java.util.Map;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.LinkedList;
 
 /*
- * Some code from the ADS Sample Paper
+ * Some code from the ADS Sample Paper 2018
  */
-public class ADSStuff2 {
+public class ADS2018 {
 
 	public static void main(String[] args) {
 //	    List<String> list = new ArrayList<>();
@@ -66,24 +67,40 @@ public class ADSStuff2 {
 //		set1.add("smarties");
 //		System.out.println(set2);
 //		System.out.println(set1);
-		//
-		// Map<Integer, String> map = new HashMap<Integer, String>();
-		//  map.put(100, "Darth Vader");
-		//  map.put(75, "Kylo Ren");
-		//  map.put(150, "Yoda");
-		//  map.put(200, "Han Solo");
-		//  map.put(150, "R2-D2");
-		//  map.put(150, "Boba Fett");
-		//  System.out.println(map);
-		int[] intArray = new int[10];
-		for (int i = 0; i < intArray.length; i++) {
-			System.out.println(intArray[i]);
-		}
 
-		ArrayList<String> stringList = new ArrayList<>();
-		for (String x : stringList) {
-			System.out.println(x);
-		}
-		System.out.println("done");
+		// Map<Integer, String> map1 = new HashMap<Integer, String>();
+		//  map1.put(1, "CS1");
+		//  map1.put(5, "CS2");
+		//  map1.put(11, "DSA");
+		//
+		//  Map<Integer, String> map2 = new HashMap<Integer, String>();
+ 		//  map2.put(2, "HCI");
+ 		//  map2.put(4, "CP");
+ 		//  map2.put(5, "CS1");
+ 		//  map2.put(10, "OS");
+ 		//  map2.put(11, "TCS");
+		//
+		//  // map1.putAll(map2);
+		//  // System.out.println(map1);
+		//
+		//  map2 = map1;
+		//  map1.remove(1, "CS1");
+		//  String s = map2.get(7);
+		//  System.out.println(map2 + " " + s);
+		List<Integer> list3 = new LinkedList<>();
+		list3.add(2);
+		list3.add(2);
+		list3.add(1);
+		list3.add(4);
+		list3.add(3);
+		list3.remove(3);
+		System.out.println(list3);
+
+		List<String> list4 = new ArrayList<>();
+		list4.add("bob");
+		list4.add("duncan");
+		list4.add("bob");
+		list4.remove("bob");
+		System.out.println(list4);
 	}
 }
