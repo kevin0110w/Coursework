@@ -4,7 +4,7 @@ public class BurgerTestDecorator {
   public static void main(String[] args) {
 	  Random rand = new Random();
 	  int i = 0;
-		 Burger burger = new BasicBurger();	  
+		 Burger burger = new BasicBurger();
 //	    System.out.println(burger.getDescription() + ": £" + burger.getPrice());
 	    Burger cheese = new CheeseDecorator(new BasicBurger());
 //	    System.out.println(cheese.getDescription() + ": £" + cheese.getPrice());
@@ -19,6 +19,7 @@ public class BurgerTestDecorator {
 	    orders.put(meal, 0);
 	    orders.put(bacon, 0);
 	    new BurgerDataObserver(s);
+      new OwnerDataObserver(s);
 	    s.setData(orders);
 	    Integer value = 0;
 	  while (i < 10) {
@@ -54,6 +55,7 @@ public class BurgerTestDecorator {
 		  }
 		  i++;
 	  }
+    System.out.println();
 	  s.setData(orders);
   }
 }
