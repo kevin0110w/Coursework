@@ -12,15 +12,16 @@ import java.util.LinkedHashSet;
 public class ADSStuff2 {
 
 	public static void main(String[] args) {
-//	    List<String> list = new ArrayList<>();
-//	    list.add("A");
-//	    list.add("B");
-//	    list.add("C");
-//	    list.add("D");
+	    List<String> list = new ArrayList<>();
+	    list.add("A");
+	    list.add("B");
+	    list.add("C");
+	    list.add("D");
 //	    for (int i = 0; i < list.size(); i++) {
-//	      System.out.print(list.remove(i));
+	      System.out.print(list.remove(0)); // print the character that was removed at 1
 //	    }
-
+	   
+//	    System.out.println(list);
 
 //		Set<A> set = new HashSet<A>();
 //		set.add(new A());
@@ -75,15 +76,15 @@ public class ADSStuff2 {
 		//  map.put(150, "R2-D2");
 		//  map.put(150, "Boba Fett");
 		//  System.out.println(map);
-		int[] intArray = new int[10];
-		for (int i = 0; i < intArray.length; i++) {
-			System.out.println(intArray[i]);
-		}
-
-		ArrayList<String> stringList = new ArrayList<>();
-		for (String x : stringList) {
-			System.out.println(x);
-		}
-		System.out.println("done");
+		// int[] intArray = new int[10];
+		// for (int i = 0; i < intArray.length; i++) {
+		// 	System.out.println(intArray[i]);
+		// }
+		//
+		// ArrayList<String> stringList = new ArrayList<>();
+		// for (String x : stringList) {
+		// 	System.out.println(x);
+		// }
+		// System.out.println("done");
 	}
 }
