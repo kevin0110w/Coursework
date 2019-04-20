@@ -8,4 +8,8 @@ public class Rectangle extends AbstractShape {
   public double getArea() {
     return this.width * this.length;
   }
+
+  public String toString() {
+    return "Rectangle Area: ";
+  }
 }

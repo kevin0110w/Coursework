@@ -7,4 +7,8 @@ public class Triangle extends AbstractShape {
   public double getArea() {
     return (0.5 * this.width) * this.length;
   }
+
+  public String toString() {
+    return "Triangle Area: ";
+  }
 }

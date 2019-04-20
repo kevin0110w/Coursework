@@ -7,4 +7,5 @@ public abstract class AbstractShape {
     this.width = width;
   }
   public abstract double getArea();
+  
 }
