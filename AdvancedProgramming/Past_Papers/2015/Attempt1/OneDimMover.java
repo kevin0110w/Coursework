@@ -25,13 +25,15 @@ public class OneDimMover {
         this.m = m;
       }
 
-      public void run() {
+      public  void run() {
         for(int i=0;i<nChanges;i++) {
-          synchronized(m) { // necessary to 'lock' the shared object
+           synchronized(m) {
+           // necessary to 'lock' the shared object
           int currentPos = m.getPos();
           currentPos += change;
           m.setPos(currentPos);
-        }}
+        }
+      }
     }
   }
 
