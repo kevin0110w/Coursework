@@ -1,0 +1,21 @@
+Composite Pattern
+Component = interface
+Leaf = Class implementing component
+Composite = class implemenet component
+
+Visitor
+MyElement = interface (accept(MyVisitor visitor)
+MyVisitor = interface(visit() for each element)
+Element = concrete element implements MyElement
+Visitor = concrete visitor implementing MyVisitor
+
+Decorator
+Abstract decorator extends abstract class
+abstract classs
+concrete class extending abstract class
+concrete decorators extending abstract decorator
+
+Observer
+concrete class for subject
+abstract observer class
+concrte observer extending abstract observer

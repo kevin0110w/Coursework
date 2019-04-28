@@ -1,13 +1,19 @@
 public class OneDimMover {
   private int pos = 0;
 
-  public  void setPos(int pos) {
+  public void setPos(int pos) {
     this.pos = pos;
   }
 
-  public synchronized int getPos() {
+  public int getPos() {
     return pos;
   }
+  //
+  // public synchronized void modify(int change) {
+  //   int currentPos = m.getPos();
+  //   currentPos += change;
+  //   m.setPos(currentPos);
+  // }
 
   public static class Changer implements Runnable {
     private int change,nChanges;
@@ -19,13 +25,13 @@ public class OneDimMover {
         this.m = m;
       }
 
-      public synchronized void run() {
+      public void run() {
         for(int i=0;i<nChanges;i++) {
-          synchronized(this) {
+          synchronized(m) { // necessary to 'lock' the shared object
           int currentPos = m.getPos();
           currentPos += change;
-          m.setPos(currentPos);}
-      }
+          m.setPos(currentPos);
+        }}
     }
   }
 
