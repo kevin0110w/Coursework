@@ -1,0 +1,6 @@
+public class Q2 {
+
+  public void getMultiple(int start, int stop, int divisor) {
+    
+  }
+}
