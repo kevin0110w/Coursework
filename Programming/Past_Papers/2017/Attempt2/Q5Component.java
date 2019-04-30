@@ -45,7 +45,7 @@ public class Q5Component implements Runnable {
     black.addActionListener(new Listener(leftPanel, clear, quit, black, red, green, blue));
     red.addActionListener(new Listener(leftPanel, clear, quit, black, red, green, blue));
     green.addActionListener(new Listener(leftPanel, clear, quit, black, red, green, blue));
-    blue.addActionListener(new Listener(leftPanel, clear, quit, black, red, green, blue));    
+    blue.addActionListener(new Listener(leftPanel, clear, quit, black, red, green, blue));
   }
 
   public static void main(String[] args) {
