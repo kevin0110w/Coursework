@@ -8,33 +8,33 @@ public class SearchReplace
    private static final String replaceString = "organization";
 
    public static void main(String[] args)
-   {  FileReader reader = null;
+   {  FileReader fr = null;
       FileReader reader2 = null;
+      Scanner reader_i = null;
+      Scanner reader_o = null;
       String line = "";
      {
-      PrintWriter out = null;
+      PrintWriter pw = null;
       try
       {  try
          {
-           File i = new File("input.txt");
+           File in = new File("input.txt");
            File o = new File("output.txt");
-           reader = new FileReader(i);
+           fr = new FileReader(in);
            reader2 = new FileReader(o);
-           while (reader.hasNextLine()) {
-             String temp = reader.readLine();
+           reader_i = new Scanner(fr);
+           reader_o = new Scanner(reader2);
+           pw = new PrintWriter("output.txt");
+           while (reader_i.hasNextLine()) {
+             String temp = reader_i.nextLine();
              if (temp.contains(queryString)) {
-               for (int i = 0; i < temp.length(); i++) {
-                 if (temp.charAt(i).equals(queryString.charAt(i) && temp.charAt(11).equals(queryString.charAt(11))) {
-                   temp.substring(i,i+10) = replaceString;
+               // for (int i = 0; i < temp.
+                    temp = temp.replaceAll(queryString, replaceString);
                  }
-               }
-             }
-             // line = line + reader.readLine();
              line = line + temp + "\n";
-
-
            }
-         } output.write(line);
+           pw.write(line);
+         }
          finally
          {  if (fr != null)
                fr.close();
@@ -42,8 +42,9 @@ public class SearchReplace
                pw.close();
          }
       }
-      catch (IOException exception)
-      {  System.out.println("I/O ERROR: " + exception);
+      catch (IOException exception)  {
+        System.out.println("I/O ERROR: " + exception);
       }
    }
+}
 }
