@@ -7,8 +7,8 @@ import java.awt.event.MouseListener;
 
 public class Q5Component1 extends JFrame implements ActionListener, MouseListener {
   private JButton clear, quit;
+  private PlotComponent plotArea;
   private JRadioButton black, red, green, blue;
-  private Component component;
   private Color color;
   private int x1, x2, y1, y2;
   private ButtonGroup b;
@@ -25,6 +25,9 @@ public class Q5Component1 extends JFrame implements ActionListener, MouseListene
   public void setup() {
     JPanel rightPanel = new JPanel();
     JPanel leftPanel = new JPanel();
+    plotArea = new PlotComponent();
+    leftPanel.add(plotArea);
+    plotArea.addMouseListener(this);
     rightPanel.setLayout(new BoxLayout(rightPanel, BoxLayout.Y_AXIS));
     clear = new JButton("Clear");
     quit = new JButton("Quit");
@@ -60,7 +63,7 @@ public class Q5Component1 extends JFrame implements ActionListener, MouseListene
   @Override
   public void actionPerformed(ActionEvent e) {
     if (e.getSource() == this.clear) {
-      // public void clear();
+    // clear();
     } else if (e.getSource() == this.quit) {
       System.exit(0);
     } else if (e.getSource() == this.black) {
@@ -91,6 +94,8 @@ public class Q5Component1 extends JFrame implements ActionListener, MouseListene
     this.x2 = e.getX();
     this.y2 = e.getY();
     // public void addLine(this.x1, this.y1, this.x2, this.y2; this.color);
+
+    //repaint();
   }
 
   @Override
