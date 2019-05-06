@@ -13,14 +13,14 @@ import java.util.LinkedList;
 public class ADS2018 {
 
 	public static void main(String[] args) {
-//	    List<String> list = new ArrayList<>();
-//	    list.add("A");
-//	    list.add("B");
-//	    list.add("C");
-//	    list.add("D");
-//	    for (int i = 0; i < list.size(); i++) {
-//	      System.out.print(list.remove(i));
-//	    }
+	    // List<String> list = new ArrayList<>();
+	    // list.add("A");
+	    // list.add("B");
+	    // list.add("C");
+	    // list.add("D");
+	    // for (int i = 0; i < list.size(); i++) {
+	    //   System.out.print(list.remove(i));
+	    // }
 
 
 //		Set<A> set = new HashSet<A>();
@@ -87,14 +87,14 @@ public class ADS2018 {
 		//  map1.remove(1, "CS1");
 		//  String s = map2.get(7);
 		//  System.out.println(map2 + " " + s);
-		// List<Integer> list3 = new LinkedList<>();
-		// list3.add(2);
-		// list3.add(2);
-		// list3.add(1);
-		// list3.add(4);
-		// list3.add(3);
-		// list3.remove(3);
-		// System.out.println(list3);
+		List<Integer> list3 = new LinkedList<>();
+		list3.add(2);
+		list3.add(2);
+		list3.add(1);
+		list3.add(4);
+		list3.add(3);
+		list3.remove(3);
+		System.out.println(list3);
 		//
 		// List<String> list4 = new ArrayList<>();
 		// list4.add("bob");
@@ -103,11 +103,11 @@ public class ADS2018 {
 		// list4.remove("bob");
 		// System.out.println(list4);
 
-		int x = 2;
-		int y = 1;
-		x -= 2;
-		x += 3;
-		System.out.println(x);
-		System.out.println(y);
+		// int x = 2;
+		// int y = 1;
+		// x -= 2;
+		// x += 3;
+		// System.out.println(x);
+		// System.out.println(y);
 	}
 }
