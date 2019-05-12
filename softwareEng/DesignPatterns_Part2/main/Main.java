@@ -1,4 +1,4 @@
-package src.main;
+package main;
 
 import observer.RSSReader;
 import observer.RSSFeed;
@@ -46,6 +46,7 @@ public class Main {
 		//  object implement this interface, the developer can work with both seamlessly without needing to know which
 		//  object is under the covers.
 		Journal journal = new JournalLightWeight();
+
 	}
 
 }

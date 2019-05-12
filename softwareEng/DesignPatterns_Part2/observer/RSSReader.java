@@ -1,4 +1,4 @@
-package src.observer;
+package observer;
 
 public class RSSReader extends Observable {
 	
