@@ -1,0 +1,3 @@
+Kevin. Your balance is £20.00
+Malbec(£5.00), 2 units, total cost = £10.00, new balance = £30.00
+Cheap Wine(£1.00), 1 units, total cost = £1.00, new balance = £31.00

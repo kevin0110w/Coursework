@@ -1,0 +1,4 @@
+Simon Rogers. Your balance is -£45.87
+Cheap Malbec(£3.99), 145 units, total cost = £578.55, new balance = £532.68
+Expensive Chablis(£12.99), 12 units, total cost = £155.88, new balance = £688.56
+Port(£34.56), 1 units, total cost = £34.56, new balance = £723.12
